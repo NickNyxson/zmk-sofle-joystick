@@ -51,7 +51,7 @@
 
         Slash {
             bindings = <&kp SLASH>;
-            key-positions = <7 44>;
+            key-positions = <44 20>;
         };
     };
 
