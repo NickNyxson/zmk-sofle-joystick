@@ -51,15 +51,15 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
-  - $$mdi:apple-keyboard-control$$
+  - Alt+$$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-command$$
   - Raise
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-tab$$', h: Raise}
   - PLAY PAUSE
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:backspace$$', h: Lower}
   - $$mdi:keyboard-space$$
   - Lower
   - $$mdi:apple-keyboard-shift$$
@@ -122,7 +122,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -189,9 +189,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Game:
@@ -262,3 +262,19 @@ layers:
 combos:
 - p: [44, 20]
   k: {t: /, s: '?'}
+- p: [34, 35]
+  k: {t: '-', s: _}
+- p: [18, 46]
+  k: {t: \, s: '|'}
+- p: [31, 30]
+  k: (
+- p: [33, 34]
+  k: )
+- p: [17, 18]
+  k: {t: '[', s: '{'}
+- p: [20, 21]
+  k: {t: ']', s: '}'}
+- p: [21, 22]
+  k: {t: '=', s: +}
+- p: [35, 36]
+  k: {t: '$$mdi:backspace$$', type: backspace}
