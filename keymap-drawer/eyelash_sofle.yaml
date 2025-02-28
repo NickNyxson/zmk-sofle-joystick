@@ -58,7 +58,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-tab$$', h: Raise}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - PLAY PAUSE
   - {t: '$$mdi:backspace$$', h: Lower}
   - $$mdi:keyboard-space$$
   - Lower
@@ -181,7 +181,7 @@ layers:
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - '&soft_off'
   - $$mdi:progress-download$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&studio_unlock'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
