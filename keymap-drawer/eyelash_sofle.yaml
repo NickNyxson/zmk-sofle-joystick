@@ -278,3 +278,45 @@ combos:
   k: {t: '=', s: +}
 - p: [35, 36]
   k: {t: '$$mdi:backspace$$', type: backspace}
+- p: [1, 2]
+  k: F1
+  l: [Game]
+- p: [1, 3]
+  k: F2
+  l: [Game]
+- p: [4, 1]
+  k: F3
+  l: [Game]
+- p: [1, 5]
+  k: F4
+  l: [Game]
+- p: [2, 3]
+  k: F5
+  l: [Game]
+- p: [2, 4]
+  k: F6
+  l: [Game]
+- p: [2, 5]
+  k: F7
+  l: [Game]
+- p: [3, 4]
+  k: F8
+  l: [Game]
+- p: [3, 5]
+  k: F9
+  l: [Game]
+- p: [4, 5]
+  k: F10
+  l: [Game]
+- p: [1, 2, 3]
+  k: F11
+  l: [Game]
+- p: [2, 3, 4]
+  k: F12
+  l: [Game]
+- p: [17, 16]
+  k: Ctl+C
+  l: [Main]
+- p: [43, 42]
+  k: Ctl+V
+  l: [Main]
