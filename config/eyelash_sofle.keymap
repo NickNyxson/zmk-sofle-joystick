@@ -179,7 +179,7 @@
         };
 
         AltTab {
-            bindings = <&kp LA(TAB)>;
+            bindings = <&kp LG(TAB)>;
             key-positions = <0 1>;
         };
 
@@ -191,7 +191,12 @@
 
         Move_to_Next_Monitor {
             bindings = <&kp LG(LS(LEFT_ARROW))>;
-            key-positions = <63>;
+            key-positions = <63 62>;
+        };
+
+        Task_Manager {
+            bindings = <&kp LC(LS(ESCAPE))>;
+            key-positions = <51 50>;
         };
     };
 
