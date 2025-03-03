@@ -320,3 +320,12 @@ combos:
 - p: [43, 42]
   k: Ctl+V
   l: [Main]
+- p: [0, 1]
+  k: Gui+$$mdi:keyboard-tab$$
+- p: [53, 54]
+  k: {t: D, h: '$$mdi:apple-keyboard-command$$'}
+  l: [Main]
+- p: [63, 62]
+  k: Gui+Sft+$$mdi:arrow-left-bold$$
+- p: [51, 50]
+  k: Ctl+Sft+$$mdi:keyboard-esc$$
