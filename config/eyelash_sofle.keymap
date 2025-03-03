@@ -177,6 +177,22 @@
             key-positions = <43 42>;
             layers = <0>;
         };
+
+        AltTab {
+            bindings = <&kp LA(TAB)>;
+            key-positions = <0 1>;
+        };
+
+        Desktop {
+            bindings = <&kp LG(D)>;
+            key-positions = <53 54>;
+            layers = <0>;
+        };
+
+        Move_to_Next_Monitor {
+            bindings = <&kp LG(LS(LEFT_ARROW))>;
+            key-positions = <63>;
+        };
     };
 
     behaviors {
