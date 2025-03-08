@@ -154,13 +154,13 @@
 
         f11 {
             bindings = <&kp F11>;
-            key-positions = <1 2 3>;
+            key-positions = <7 8>;
             layers = <3>;
         };
 
         f12 {
             bindings = <&kp F12>;
-            key-positions = <2 3 4>;
+            key-positions = <7 9>;
             layers = <3>;
         };
 
@@ -195,6 +195,16 @@
         Task_Manager {
             bindings = <&kp LC(LS(ESCAPE))>;
             key-positions = <51 50>;
+        };
+
+        Ctrl-Alt-Delete {
+            bindings = <&kp LC(LA(DELETE))>;
+            key-positions = <12 11>;
+        };
+
+        Delete {
+            bindings = <&kp DELETE>;
+            key-positions = <22 23>;
         };
     };
 
