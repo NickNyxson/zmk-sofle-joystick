@@ -308,10 +308,10 @@ combos:
 - p: [4, 5]
   k: F10
   l: [Game]
-- p: [1, 2, 3]
+- p: [7, 8]
   k: F11
   l: [Game]
-- p: [2, 3, 4]
+- p: [7, 9]
   k: F12
   l: [Game]
 - p: [17, 16]
@@ -329,3 +329,7 @@ combos:
   k: Gui+Sft+$$mdi:arrow-left-bold$$
 - p: [51, 50]
   k: Ctl+Sft+$$mdi:keyboard-esc$$
+- p: [12, 11]
+  k: Ctl+Alt+$$mdi:backspace-reverse-outline$$
+- p: [22, 23]
+  k: $$mdi:backspace-reverse-outline$$
