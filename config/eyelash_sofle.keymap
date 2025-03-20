@@ -220,7 +220,7 @@
 &kp TAB     &kp Q               &kp W           &kp E        &kp R             &kp T        &kp DOWN_ARROW    &kp Y            &kp U              &kp I        &kp O            &kp P                    &kp BSLH
 &kp LCTRL   &kp A               &mt LEFT_ALT S  &mt LCTRL D  &mt LEFT_SHIFT F  &kp G        &kp C_PREVIOUS    &kp H            &mt RIGHT_SHIFT J  &mt RCTRL K  &mt RIGHT_ALT L  &mt RIGHT_GUI SEMICOLON  &kp APOS
 &kp LSHFT   &kp Z               &kp X           &kp C        &kp V             &kp B        &kp C_NEXT        &kp N            &kp M              &kp COMMA    &kp DOT          &kp FSLH                 &kp RIGHT_SHIFT
-&kp C_MUTE  &kp LA(LEFT_SHIFT)  &kp LEFT_GUI    &mo 1        &kp ENTER         &lt 1 TAB    &kp C_PLAY_PAUSE  &lt 2 BACKSPACE  &kp SPACE          &mo 2        &kp RIGHT_SHIFT  &tog 3
+&kp C_MUTE  &kp LA(LEFT_SHIFT)  &kp LEFT_GUI    &mo 4        &kp ENTER         &lt 1 TAB    &kp C_PLAY_PAUSE  &lt 2 BACKSPACE  &kp SPACE          &mo 2        &kp RIGHT_SHIFT  &tog 3
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -264,6 +264,18 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+        };
+
+        Numbers {
+            bindings = <
+&trans     &trans        &trans        &trans        &kp SLASH     &kp PERCENT    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK  &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS      &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS     &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &kp NUMBER_0  &kp COMMA     &trans        &trans        &trans         &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+
+            label = "Num";
         };
     };
 };
