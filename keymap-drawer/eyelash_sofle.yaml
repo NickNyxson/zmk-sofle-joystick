@@ -262,7 +262,7 @@ layers:
   - {t: Game, h: toggle}
   Num:
   - {t: '$$mdi:transfer$$', type: trans}
-  - CALCULATOR
+  - AL CALCULATOR
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: /, s: '?'}
