@@ -54,7 +54,7 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
-  - Alt+$$mdi:apple-keyboard-shift$$
+  - Gui+$$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-command$$
   - Num
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -63,7 +63,7 @@ layers:
   - {t: '$$mdi:backspace$$', h: Lower}
   - $$mdi:keyboard-space$$
   - Lower
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-caps$$
   - {t: Game, h: toggle}
   Raise:
   - {t: '`', s: '~'}
