@@ -52,7 +52,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-shift$$
+  - Gui+.
   - $$mdi:volume-off$$
   - Gui+$$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-command$$
