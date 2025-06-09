@@ -399,3 +399,7 @@ combos:
   k: Ctl+Alt+$$mdi:backspace-reverse-outline$$
 - p: [22, 23]
   k: $$mdi:backspace-reverse-outline$$
+- p: [43, 44]
+  k: '{'
+- p: [46, 47]
+  k: '}'

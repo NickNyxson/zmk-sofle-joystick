@@ -730,6 +730,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="742" y="74" width="28" height="26" class="combo"/>
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="747" y="78" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
 </g>
+<g class="combo combopos-17">
+<rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
+<text x="280" y="203" class="combo tap">{</text>
+</g>
+<g class="combo combopos-18">
+<rect rx="6" ry="6" x="630" y="190" width="28" height="26" class="combo"/>
+<text x="644" y="203" class="combo tap">}</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 388)" class="layer-Raise">
@@ -1152,6 +1160,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="742" y="74" width="28" height="26" class="combo"/>
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="747" y="78" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
 </g>
+<g class="combo combopos-14">
+<rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
+<text x="280" y="203" class="combo tap">{</text>
+</g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="630" y="190" width="28" height="26" class="combo"/>
+<text x="644" y="203" class="combo tap">}</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 776)" class="layer-Lower">
@@ -1555,6 +1571,14 @@ rect.held, rect.combo.held {
 <g class="combo combopos-13">
 <rect rx="6" ry="6" x="742" y="74" width="28" height="26" class="combo"/>
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="747" y="78" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
+</g>
+<g class="combo combopos-14">
+<rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
+<text x="280" y="203" class="combo tap">{</text>
+</g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="630" y="190" width="28" height="26" class="combo"/>
+<text x="644" y="203" class="combo tap">}</text>
 </g>
 </g>
 </g>
@@ -2028,6 +2052,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="742" y="74" width="28" height="26" class="combo"/>
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="747" y="78" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
 </g>
+<g class="combo combopos-26">
+<rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
+<text x="280" y="203" class="combo tap">{</text>
+</g>
+<g class="combo combopos-27">
+<rect rx="6" ry="6" x="630" y="190" width="28" height="26" class="combo"/>
+<text x="644" y="203" class="combo tap">}</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1553)" class="layer-Num">
@@ -2423,6 +2455,14 @@ rect.held, rect.combo.held {
 <g class="combo combopos-13">
 <rect rx="6" ry="6" x="742" y="74" width="28" height="26" class="combo"/>
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="747" y="78" height="18" width="18.0" class="combo tap glyph mdi:backspace-reverse-outline"/>
+</g>
+<g class="combo combopos-14">
+<rect rx="6" ry="6" x="266" y="190" width="28" height="26" class="combo"/>
+<text x="280" y="203" class="combo tap">{</text>
+</g>
+<g class="combo combopos-15">
+<rect rx="6" ry="6" x="630" y="190" width="28" height="26" class="combo"/>
+<text x="644" y="203" class="combo tap">}</text>
 </g>
 </g>
 </g>
